@@ -1,0 +1,18 @@
+# Environnements virtuels
+venv/
+env/
+.env
+
+# Fichiers cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poids des modèles PyTorch (trop lourds pour Git, à héberger sur un Drive/HuggingFace si nécessaire)
+*.pth
+*.pt
+checkpoints/
+
+# Fichiers générés par l'exécution
+videos/
+*.png
