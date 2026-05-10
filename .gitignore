@@ -16,3 +16,6 @@ checkpoints/
 # Fichiers générés par l'exécution
 videos/
 *.png
+
+# Données collectées
+data/*.pkl
